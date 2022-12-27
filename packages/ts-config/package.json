@@ -1,0 +1,7 @@
+{
+  "name": "@ignite-ui/ts-config",
+  "version": "1.0.0",
+  "author": "Carlos Eduardo <carloseduardo@cenarioweb.com.br>",
+  "license": "MIT",
+  "private": true
+}
