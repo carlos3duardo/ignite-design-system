@@ -1,0 +1,19 @@
+import { ComponentProps, ElementType } from 'react';
+import { AvatarContainer, AvatarFallBack, AvatarImage } from './styles';
+import { User } from 'phosphor-react';
+
+export interface AvatarProps extends ComponentProps<typeof AvatarImage> {
+  as?: ElementType;
+}
+
+export const Avatar = (props: AvatarProps) => {
+  return (
+    <AvatarContainer>
+      <AvatarImage {...props} />
+
+      <AvatarFallBack delayMs={600}>
+        <User />
+      </AvatarFallBack>
+    </AvatarContainer>
+  );
+};
