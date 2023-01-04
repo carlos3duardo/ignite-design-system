@@ -8,6 +8,13 @@ export default {
     src: 'https://i.pravatar.cc/64',
     alt: 'John Doe',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>;
 
 export const Primary: StoryObj<AvatarProps> = {};
