@@ -1,0 +1,2 @@
+import{A as t}from"./index-48a1523a.js";import"./index-7cc2572b.js";import"./es.object.get-own-property-descriptor-3a7d61f2.js";import"./index-46fdd620.js";import"./jsx-runtime-c368ffdb.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://i.pravatar.cc/64",alt:"John Doe"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,e as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories-8c843d10.js.map
